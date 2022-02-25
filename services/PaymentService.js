@@ -56,11 +56,11 @@ class PaymentService {
         default_installments: 6
       },
       back_urls: {
-        success: "https://mercadopago-checkout.herokuapp.com/success",
-        pending: "https://mercadopago-checkout.herokuapp.com/pending",
-        failure: "https://mercadopago-checkout.herokuapp.com/error"
+        success: "https://mpmaster.herokuapp.com/success",
+        pending: "https://mpmaster.herokuapp.com/pending",
+        failure: "https://mpmaster.herokuapp.com/error"
       },
-      notification_url: "https://mercadopago-checkout.herokuapp.com/webhook",
+      notification_url: "https://mpmaster.herokuapp.com/webhook",
       auto_return: "approved"
     };
 
